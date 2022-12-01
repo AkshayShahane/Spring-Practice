@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ https://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+ <bean class="com.practice.Emp" name="empBean">
+ 	<property name="empId" value="8459" />
+ 	<property name="empName" value="Magan"/>
+ 	<property name="address">
+ 		<list>
+ 			<value>Delhi</value>
+ 			<value>Banglore</value>
+ 			<value>Aurangabad</value>
+ 			<value>Aurangabad</value>
+ 		</list>
+ 	</property>
+ 	<property name="phoneNo">
+ 		<set>
+ 			<value>7865</value>
+ 			<value>8555</value>
+ 			<value>777</value>
+ 		</set>
+ 	</property>
+ 	<property name="courses">
+ 		<map>
+ 			<entry key="Java" value="2 month"/>
+ 			<entry key="Python" value="5 month"/>
+ 		</map>
+ 	</property>
+ </bean>
+ 
+ </beans>
