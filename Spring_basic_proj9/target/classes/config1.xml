@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:c="http://www.springframework.com/schema/c"
+ xmlns:p="http://www.springframework.com/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd">
+ 
+
+ <bean class="com.practice.Laptop" name="l1">
+ 	<property name="modelName" value="thinkpad"/>
+ </bean>
+ 
+ <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+ </beans>
